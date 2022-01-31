@@ -1,0 +1,18 @@
+#externo3 {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+li:hover{
+    color: red;
+    cursor:grab;
+    font-weight: bold;
+}

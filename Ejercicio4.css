@@ -1,0 +1,19 @@
+#Propiedades{
+    background-color: lightblue;
+    color: blue;
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+li:hover{
+    color: red;
+    cursor:grab;
+}
+li:visited{
+    color: green;
+}
