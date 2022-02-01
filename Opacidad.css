@@ -1,0 +1,20 @@
+#image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Circulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:green;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.Circulo:hover{
+    opacity: 0;
+}

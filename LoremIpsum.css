@@ -1,0 +1,21 @@
+#a{
+    color: green;
+}
+#f{
+    color: red;
+}
+#c{
+    color: yellow;
+}
+#d{
+    color: blue;
+}
+f:hover{
+    color: rgb(170, 1, 1)
+}
+#g{
+    color:violet
+}
+#th{
+    justify-content: center;
+}

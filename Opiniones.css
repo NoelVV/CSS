@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#image-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#info-container{
+    margin-left: 20px;
+}
+
+.generic-button {
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.reservation {
+    background-color: white;
+    border: 2px solid grey;
+}
+
+.presupuesto {
+    background-color: grey;
+    color: white;
+    border:none;
+}
+
+#parte-derecha{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 5px;
+}
+
+.numero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    background-color: grey;
+    border-radius: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
